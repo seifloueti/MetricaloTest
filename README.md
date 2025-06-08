@@ -68,7 +68,9 @@ Request Body Example (JSON):
 ### 6. Run the Command-Line Payment Processor
 
 php bin/console app:payment aci 50 USD 4242424242424242 6 2025 123
+
 or
+
 php bin/console app:payment shift4 50 USD 4242424242424242 6 2025 123
 
 
