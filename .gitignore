@@ -1,0 +1,23 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+
+# heavy content
+/app/wp-content/uploads/*
+/app/*.zip
+/app/*.tar
+/app/*.exe
+node_modules
+
+# logs
+*.log
+debug_log
+error_log
+wflogs
+
+# configs et local
+/app/wp-config.php
+/app/.htaccess
+/app/robots.txt
+.DS_Store
+.idea
+.lh
